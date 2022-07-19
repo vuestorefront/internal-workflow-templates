@@ -2,14 +2,9 @@
 on:
   workflow_call:
     inputs:
-      github_environment_name:
-        required: true
-        type: string
-
       environment_code:
         required: true
         type: string
-
       target_url:
         required: true
         type: string
